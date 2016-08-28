@@ -55,11 +55,14 @@
     
   }
 
+html {overflow-x: hidden}
 
 body {
   background:black;
   position:relative;
   overflow:hidden;
+  width:100vw;
+  height:100vh;
 }
 
 .buttons {
