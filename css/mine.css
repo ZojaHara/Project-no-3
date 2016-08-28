@@ -66,49 +66,49 @@
 
 /*Little guy anim - RWD*/
 
-@media all and (min-width:650px) and (max-width:1200px) {
+@media all and (min-width:701px) and (max-width:1200px) {
 
     @-webkit-keyframes moveAll {
       from {
-        top: 40vmin;
+        top: 35.5vmin;
         left: 0%;
       }
       to {
-        top: 25.5vmin;
+        top: 24vmin;
         left: 100%;
       }
     }
     @keyframes moveAll {
       from {
-        top: 40vmin;
+        top: 35.5vmin;
         left: 0%;
       }
       to {
-        top: 25.5vmin;
+        top: 24vmin;
         left: 100%;
     }
   }
 }
 
-@media all and (max-width:649px) {
+@media all and (max-width:700px) {
 
     @-webkit-keyframes moveAll {
       from {
-        top: 40vmin;
+        top: 33.5vmin;
         left: 0%;
       }
       to {
-        top: 21vmin;
+        top: 19vmin;
         left: 100%;
       }
     }
     @keyframes moveAll {
       from {
-        top: 40vmin;
+        top: 33.5vmin;
         left: 0%;
       }
       to {
-        top: 21vmin;
+        top: 19vmin;
         left: 100%;
     }
   }
@@ -118,21 +118,21 @@
 
     @-webkit-keyframes moveAll {
       from {
-        top: 40.2vmin;
+        top: 35.5vmin;
         left: 0%;
       }
       to {
-        top: 29vmin;
+        top: 26.5vmin;
         left: 100%;
       }
     }
     @keyframes moveAll {
       from {
-        top: 40.2vmin;
+        top: 35.5vmin;
         left: 0%;
       }
       to {
-        top: 29vmin;
+        top: 26.5vmin;
         left: 100%;
     }
   }
@@ -417,9 +417,9 @@ body {
 
 
 
-@media all and (max-width:1200px) {
+/*@media all and (max-width:1200px) {
   .road {
     -webkit-transform: rotate(-15deg);
     transform: rotate(-6deg);
   }
-}
+}*/
